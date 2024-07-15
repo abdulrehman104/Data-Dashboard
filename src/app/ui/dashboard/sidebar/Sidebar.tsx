@@ -46,12 +46,12 @@ const menuItems = [
     list: [
       {
         title: "Revenue",
-        path: "/",
+        path: "/rev",
         icon: <MdWork />,
       },
       {
         title: "Reports",
-        path: "/",
+        path: "/rep",
         icon: <MdAnalytics />,
       },
       {
@@ -66,12 +66,12 @@ const menuItems = [
     list: [
       {
         title: "Settings",
-        path: "/",
+        path: "/setting",
         icon: <MdOutlineSettings />,
       },
       {
         title: "Help",
-        path: "/",
+        path: "/help",
         icon: <MdHelpCenter />,
       },
     ],
