@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --bg: #151c2c;
+  --bgSoft: #202c48;
+  --text: white;
+  --textSoft: #b7bac1;
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.bg-soft{
+background-color: var(--bgSoft);
+}
+
+.text-soft{
+color: var(--textSoft);
+}
+
+.border{
+  @apply border-[2px] border-solid border-[#3f485c] p-5 outline-none bg-[--bg] mb-5
+}
+
+.input1{
+  @apply w-[45%] border  rounded-md 
+}
+
+.input2{
+  @apply w-[100%] rounded-md border-[1px] border-solid border-[#3f485c] p-3 outline-none bg-[--bg] mb-3
+}
